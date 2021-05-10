@@ -1,0 +1,4 @@
+type UserClaimedRewards @entity {
+  id: ID!
+  totalRewardsClaimed: BigInt!
+}
